@@ -567,10 +567,10 @@ service:
   type: LoadBalancer
   ## @param service.port Service HTTP port
   ##
-  port: 8080
+  port: 9080
   ## @param service.httpsPort Service HTTPS port
   ##
-  httpsPort: 8443
+  httpsPort: 9443
   ## @param service.nodePorts [object] Specify the nodePort(s) value(s) for the LoadBalancer and NodePort service types.
   ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
   ##
